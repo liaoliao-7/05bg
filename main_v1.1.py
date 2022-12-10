@@ -39,6 +39,7 @@ def pyMuPDF_fitz(pdfPath, imagePath, num):
         mat = fitz.Matrix(zoom_x, zoom_y).preRotate(rotate)
         pix = page.getPixmap(matrix=mat, alpha=False)
 
+        # 打开文件
         if not os.path.exists(imagePath):  # 判断存放图片的文件夹是否存在
             os.makedirs(imagePath)  # 若图片文件夹不存在就创建
 
