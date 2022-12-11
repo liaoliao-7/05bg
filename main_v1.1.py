@@ -82,7 +82,6 @@ def pyMuPDF_fitz(pdfPath, imagePath, num):
 #         result = response.json()['data']
 #         if isinstance(result, dict):
 #             break
-#
 #     # 设置一个空的列表，后面用来存储识别到的字符串
 #     ocr_text = []
 #     if not result.get('words_result'):
