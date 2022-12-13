@@ -13,6 +13,3 @@ def img_to_txt(dd, alt=None):
     for i in range(len(result[0])):
         alt.append(result[0][i][-1][0])
     return alt
-
-
-g
